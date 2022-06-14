@@ -253,7 +253,7 @@ input:focus {
     width: 100vw;
     padding-left: 2em;
   }
-
+  
   #card-container {
     display: flex;
     flex-direction: column;
@@ -263,19 +263,9 @@ input:focus {
 
   }
 
-  .card {
-    min-width: 70vw;
-    padding: 10px;
-    height: 80px;
-    -webkit-border-radius: 60px;
-    border-radius: 16px;
-    background: #dddcc9ea;
-    -webkit-box-shadow: 9px 9px 18px #8b722e, -3px -3px 10px #8b722e;
-    box-shadow: 6px 6px 10px #8b722e, -3px -3px 10px #8b722e;
-    display: flex;
-    flex-direction: row;
+  .card{
+    margin-left: 35px;
   }
-
   .card p {
     font-size: 20px;
     padding-top: 8px;
@@ -291,6 +281,9 @@ input:focus {
     width: 100vw;
     padding-left: 1em;
     padding-bottom: 2em;
+  }
+  .form-container{
+    padding-left: 30px;
   }
 
   #info-container {
@@ -335,6 +328,11 @@ input:focus {
     padding: 2.25rem 1rem 1rem 2rem;
     border-radius: 150px 0px 0px 0px;
   }
+
+  img{
+   min-height: fit-content;
+  }
 }
 
 /*END MEDIA QUERY*/
+
